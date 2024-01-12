@@ -1,0 +1,42 @@
+{
+  "name": "svelte-amplify-adapter",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Adapter to enable aws-amplify SSR in SvelteKit",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "dist/types.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpadrutt/svelte-amplify-adapter.git"
+  },
+  "keywords": [
+    "svelte",
+    "sveltekit",
+    "aws-amplify",
+    "ssr"
+  ],
+  "author": "Marc Padrutt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpadrutt/svelte-amplify-adapter/issues"
+  },
+  "homepage": "https://github.com/mpadrutt/svelte-amplify-adapter#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@sveltejs/kit": "^2.3.0",
+    "aws-amplify": "^6.0.0",
+    "rollup": "^4.9.5",
+    "rollup-plugin-dts": "^6.1.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "@sveltejs/kit": ">=2",
+    "aws-amplify": ">=6"
+  }
+}
