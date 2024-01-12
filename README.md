@@ -5,7 +5,7 @@ This is a simple adapter to enable SSR in SvelteKit 2 and aws-amplify 6.
 ## Getting started
 
 ```bash
-npm install "svelte-amplify-adapter"
+npm install svelte-amplify-adapter
 ```
 
 ```ts
