@@ -1,6 +1,6 @@
 {
   "name": "svelte-amplify-adapter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "Adapter to enable aws-amplify SSR in SvelteKit",
   "scripts": {
@@ -9,7 +9,7 @@
   "files": [
     "dist"
   ],
-  "types": "./dist/types.d.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/esm/index.js",
