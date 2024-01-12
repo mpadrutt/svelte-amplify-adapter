@@ -1,6 +1,6 @@
 # Svelte-Amplify-Adapter
 
-This is a simple adapter to enable SSR in SvelteKit 5 and aws-amplify 6.
+This is a simple adapter to enable SSR in SvelteKit 2 and aws-amplify 6.
 
 ## Getting started
 
