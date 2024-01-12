@@ -28,4 +28,3 @@ const runWithSvelteAmplifyServerContext = async (cookies, amplifyConfig, operati
 };
 
 export { runWithSvelteAmplifyServerContext };
-//# sourceMappingURL=index.js.map

@@ -9,7 +9,6 @@ export default [
             {
                 dir: "dist/esm",
                 format: "esm",
-                sourcemap: true,
             },
         ],
         plugins: [typescript()],
